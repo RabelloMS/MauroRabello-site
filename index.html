@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mauro Rabello</title>
+  <style>
+    body {
+      font-family: "Lucida Sans", Arial, sans-serif;
+      margin: 0;
+      background-color: #0b1f3a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    header img {
+      width: 240px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .tagline {
+      font-size: 1.2em;
+      color: #c0d3ec;
+      margin-top: 10px;
+    }
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .lang-button {
+      background: white;
+      border: none;
+      color: #0b1f3a;
+      font-weight: bold;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    section {
+      margin: 40px 0;
+    }
+    h2 {
+      border-bottom: 2px solid #3b6da8;
+      padding-bottom: 10px;
+      color: #e0efff;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      margin: 40px 0 20px;
+      font-size: 0.9em;
+      color: #8fa9c9;
+    }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="mauro_profile.jpg" alt="Mauro Rabello">
+      <h1>Mauro Rabello</h1>
+      <p class="tagline" id="tagline">Partnering with brands and businesses that want to grow bigger and smarter.</p>
+    </header>
+
+    <nav>
+      <button class="lang-button" onclick="setLang('en')">English</button>
+      <button class="lang-button" onclick="setLang('pt')">Português</button>
+    </nav>
+
+    <section id="about-en">
+      <h2>About Mauro</h2>
+      <p>Mauro Rabello is a senior executive with a distinguished career in marketing, advertising, sales, technology and media. With over three decades of leadership in Brazil, the US, and Europe, he has held key roles at some of the world’s largest communications groups and brands.</p>
+      <ul>
+        <li>🌍 International Experience – McCann-Erickson, Y&R, Euro RSCG, dentsu, Ogilvy</li>
+        <li>💡 Technology – Engineering and digital innovation with data-driven strategy</li>
+        <li>🎥 Content – From UOL/Zip.Net to Red Bull branded content</li>
+      </ul>
+      <h2>Professional Journey</h2>
+      <ul>
+        <li><b>Dentsu Brasil – Managing Director (2013–2021)</b><br>Led full agency operations for Toyota, Lexus, Canon, Microsoft, Subway, Hitachi, and more.</li>
+        <li><b>Zip.Net / UOL – COO, CMO, CCO (2000–2002)</b><br>Transformed Zip.Net into the #2 youth portal in Brazil and orchestrated its acquisition by UOL.</li>
+        <li><b>Y&R Latin America – SVP & Regional Director (1992–1996)</b><br>Oversaw strategic communications for Colgate, Philip Morris, Xerox, and Turner International.</li>
+        <li><b>Euro RSCG Latin America – Regional Director (1996–2000)</b><br>Directed regional campaigns for Philips and Intel and pioneered digital capabilities.</li>
+        <li><b>MR Consulting / Gotcha! / Palm Era – Partner (2021–Now)</b><br>Advisor for clients like TCL, KFC, Cartão de TODOS.</li>
+      </ul>
+      <h2>Selected Highlights</h2>
+      <ul>
+        <li>📦 Led growth of Zip.Net to UOL, shaping digital culture in Brazil</li>
+        <li>🚗 Led Dentsu’s largest office in Latin America</li>
+        <li>🎯 Developed branded content for Red Bull and Fremantle</li>
+        <li>🧠 Created LATAM’s first Interactive Agency network at Euro RSCG</li>
+        <li>🏅 Directed Olympic Games editorial team for COB & Banco do Brasil in Sydney 2000</li>
+      </ul>
+      <h2>What Sets Him Apart</h2>
+      <ul>
+        <li>🔧 Strategy + Engineering mindset</li>
+        <li>🌎 Cross-continental leadership (LATAM, US, EU)</li>
+        <li>🧩 Creativity, performance and innovation</li>
+        <li>📈 Proven track record of impact and growth</li>
+      </ul>
+      <h2>Contact</h2>
+      <p>Email: maurorabello@mac.com<br>
+         LinkedIn: <a href="https://linkedin.com/in/maurorabello" target="_blank" style="color:#c0d3ec;">linkedin.com/in/maurorabello</a><br>
+         WhatsApp: +55 11 98717-8279</p>
+    </section>
+
+    <section id="about-pt" class="hidden">
+      <h2>Sobre Mauro</h2>
+      <p>Mauro Rabello é um executivo sênior com carreira destacada nas áreas de marketing, publicidade, vendas, tecnologia e mídia. Com mais de três décadas de atuação no Brasil, EUA e Europa, ocupou cargos de liderança em alguns dos maiores grupos de comunicação e marcas do mundo.</p>
+      <ul>
+        <li>🌍 Experiência Internacional – McCann-Erickson, Y&R, Euro RSCG, dentsu, Ogilvy</li>
+        <li>💡 Tecnologia – Engenharia e inovação digital com estratégias orientadas por dados</li>
+        <li>🎥 Conteúdo – Do UOL/Zip.Net ao conteúdo de marca da Red Bull</li>
+      </ul>
+      <h2>Trajetória Profissional</h2>
+      <ul>
+        <li><b>Dentsu Brasil – Managing Director (2013–2021)</b><br>Liderou operações para Toyota, Lexus, Canon, Microsoft, Subway e Hitachi.</li>
+        <li><b>Zip.Net / UOL – COO, CMO, CCO (2000–2002)</b><br>Transformou o Zip.Net no 2º maior portal jovem do Brasil e coordenou sua venda ao UOL.</li>
+        <li><b>Y&R América Latina – SVP & Diretor Regional (1992–1996)</b><br>Atendeu Colgate, Philip Morris, Xerox e Turner.</li>
+        <li><b>Euro RSCG – Diretor Regional (1996–2000)</b><br>Liderou campanhas para Philips e Intel, e lançou as primeiras estruturas digitais.</li>
+        <li><b>MR Consulting / Gotcha! / Palm Era – Sócio (2021–atualmente)</b><br>Consultor para TCL, KFC, Cartão de TODOS.</li>
+      </ul>
+      <h2>Destaques Selecionados</h2>
+      <ul>
+        <li>📦 Liderou o crescimento do Zip.Net e sua venda para o UOL</li>
+        <li>🚗 Liderou o maior escritório da Dentsu na América Latina</li>
+        <li>🎯 Desenvolveu conteúdo de marca para Red Bull e Fremantle</li>
+        <li>🧠 Criou a 1ª rede de agências interativas na América Latina</li>
+        <li>🏅 Dirigiu a equipe editorial dos Jogos Olímpicos Sydney 2000</li>
+      </ul>
+      <h2>O Que o Diferencia</h2>
+      <ul>
+        <li>🔧 Estratégia com mentalidade de engenharia</li>
+        <li>🌎 Liderança internacional (LATAM, EUA, Europa)</li>
+        <li>🧩 Criatividade, performance e inovação</li>
+        <li>📈 Histórico comprovado de impacto e crescimento</li>
+      </ul>
+      <h2>Contato</h2>
+      <p>Email: maurorabello@mac.com<br>
+         LinkedIn: <a href="https://linkedin.com/in/maurorabello" target="_blank" style="color:#c0d3ec;">linkedin.com/in/maurorabello</a><br>
+         WhatsApp: +55 11 98717-8279</p>
+    </section>
+
+    <footer>
+      &copy; 2025 Mauro Rabello – All rights reserved
+    </footer>
+  </div>
+
+  <script>
+    function setLang(lang) {
+      document.getElementById('about-en').classList.toggle('hidden', lang !== 'en');
+      document.getElementById('about-pt').classList.toggle('hidden', lang !== 'pt');
+      document.getElementById('tagline').textContent =
+        lang === 'en'
+          ? 'Partnering with brands and businesses that want to grow bigger and smarter.'
+          : 'Parceria com marcas e negócios que querem crescer mais e melhor.';
+    }
+  </script>
+</body>
+</html>
